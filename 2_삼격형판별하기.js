@@ -2,7 +2,7 @@ function solution(a, b, c) {
     let answer = "YES" , max;
     
     if ((a > (b + c)) && (b > ( a + c )) && ( c > ( a + b))) {
-        answer = "NO"
+        answer = "NO";
     }
     
     
@@ -17,5 +17,5 @@ function solution(a, b, c) {
     return answer;
 }
 
-console.log(solution(13, 33, 17));
+console.log(solution(6, 7, 11));
 
