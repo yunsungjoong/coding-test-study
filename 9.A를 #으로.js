@@ -1,6 +1,6 @@
 // 예 1)
 
-/*
+
 function solution(s){
     let answer="";
     for(let x of s){
@@ -12,15 +12,14 @@ function solution(s){
 let str="BANANA";
 console.log(solution(str));
 
-*/
 
 
-function solution(s){
-    let answer=s;
-    s=s.replace(/A/g, '#');
-    console.log(s);
-    return answer;
-}
+// function solution(s){
+//     let answer=s;
+//     s=s.replace(/A/g, '#');
+//     console.log(s);
+//     return answer;
+// }
 
-let str="BANANA";
-console.log(solution(str));
+// let str="BANANA";
+// console.log(solution(str));
