@@ -7,3 +7,5 @@ function solution(s){
 
 let str="goooob";
 console.log(solution(str));
+
+//test
