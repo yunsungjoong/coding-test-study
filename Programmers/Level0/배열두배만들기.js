@@ -9,4 +9,4 @@ const solution = (numbers) => {
     answer.push(numbers[i] * 2);
  }  
  return answer;
-}    
+}       
