@@ -9,3 +9,4 @@ retrun하도록 solution 함수를 완성해주세요.
 const soltuion = (num1,num2) => 
     num1 === num2 ? 1: -1;
 
+  
