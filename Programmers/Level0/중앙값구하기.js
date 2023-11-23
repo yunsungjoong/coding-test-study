@@ -11,6 +11,8 @@ function solution(arr) {
 
 
 function solution(arr){
-    return arr.sort((a , b) => a - b)[parseInt(array.length / 2)];
-    
+    return arr.sort((a , b) => a - b)[parseInt(array.length / 2)];    
 }
+
+
+const solution = arr => [...arr].sort((a,b) => a - b)[Math.floor(arr.length / 2)];
