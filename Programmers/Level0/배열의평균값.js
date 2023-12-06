@@ -5,4 +5,4 @@ function solution(numbers){
     }
     let answer = sum / numbers.length;
     return answer;
-}
+}   
