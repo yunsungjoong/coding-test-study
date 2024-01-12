@@ -7,3 +7,6 @@ function solution(my_string, n) {
     }
     return answer;
 }
+
+
+const solution = (my_string, n) => [...my_string].map(a => a.repeat(n)).join("")
