@@ -20,6 +20,6 @@ function solution(num_list) {
     for(let a of num_list) {
         answer[a%2] += 1
     }
-
+   
     return answer;
 }
